@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="description de la page">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Jeu du morpion {Javascript}</title>
+    <link rel="shortcut icon" href="img/bug.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="">
+    
+    <!-- Custom CSS -->
+    <style>
+        @font-face{
+            font-family:bug;
+            src:url(font/rocco.otf);
+        }
+        body{
+            font-family:bug;
+           
+        }
+        h1{
+            font-size:4em;
+        }
+        .b-img{
+            background:url(img/morpion2.jpg) center center no-repeat;
+            background-size:cover;
+            min-height:100vh;
+        }
+        .btn{
+            width:100px;
+            height:100px;
+            color:#aaaaf0;
+            background-color:#fff;
+            font-size:3em;
+        } 
+        #labeltour{
+            width:310px;
+            color:#aaaaf0;
+            font-size:1.5em;
+        }   
+       
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container-fluid b-img py-5">
+        <div class="row">
+            <div class="col-md-6 p-5 m-auto text-center text-white">
+                <h1>Jeu du Morpion</h1>
+                <h2><i class="fas fa-bug"></i> {Javascript} <i class="fas fa-bug"></i></h2>
+            </div>
+        </div>    
+    
+    <div class="container ">
+        <div class="row text-center pt-3 pb-2 ">
+            <div class="col-md-6 m-auto">
+                <label id="labeltour" class="form-control m-auto" ></label> 
+            </div>
+        </div>
+        <div class="row text-center pt-2 pb-1">
+            <div class="col-12 col-sm-6 m-auto">
+                <button class="btn btn-secondary text-center rounded case"></button>
+                <button class="btn btn-secondary text-center rounded case"></button>  
+                <button class="btn btn-secondary text-center rounded case"></button>
+            </div>
+        </div>
+        
+        <div class="row text-center pb-1">
+            <div class="col-12 col-sm-6 m-auto">
+                <button class="btn btn-secondary text-center rounded case"></button>
+                <button class="btn btn-secondary text-center rounded case"></button>
+                <button class="btn btn-secondary text-center rounded case"></button>
+                
+            </div>
+        </div>
+        <div class="row text-center pb-1">
+            <div class="col-12 col-sm-6 m-auto">
+                <button class="btn btn-secondary text-center rounded case"></button>
+                <button class="btn btn-secondary text-center rounded case"></button>
+                <button class="btn btn-secondary text-center rounded case"></button>
+                
+            </div>
+        </div>   
+        
+    </div>
+</div>
+    <script>
+        
+    </script>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Custom JS -->
+<script src="js/morpion.js"></script>
+
+</body>
+</html>
