@@ -1,2 +1,1 @@
-# test
-repository de test
+Jeu du morpion en javascript
